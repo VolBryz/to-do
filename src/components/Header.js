@@ -24,10 +24,10 @@ const Header = () => {
 
   return (
     <header className="header">
-      <h1>todos</h1>
+      <h1>To Do</h1>
       <input
         className="new-todo"
-        placeholder="What needs to be done?"
+        placeholder="Write a first task"
         value={text}
         onChange={changeText}
         onKeyDown={keydownText}
